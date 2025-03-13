@@ -12,16 +12,22 @@ body {
 	background-color: #f8f8fc;
 }
 
+a {
+	color: white;
+}
 
+h6 {
+	color: white;
+}
 /* Styles for custom classes in the document. (There are more, try to find them out!) */
 
 .resume-header {
     background-color: #2f575a;
-	color: #fff0e0;
+	color: #ffffff;
 }
 
 .resume-main {
-	background-color: #fffefc;
+	background-color: #e2daca;
 }
 
 .resume-aside {
