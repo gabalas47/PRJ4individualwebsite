@@ -2,6 +2,7 @@
 
 /* Import declaration to use Google Fonts - check https://fonts.google.com/ for details */
 @import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Honk&display=swap');
 
 
 /* Styles for the body */
@@ -15,6 +16,28 @@ body {
 a {
 	color: white;
 }
+.header_bigfont{
+	font-family: "Honk", system-ui;
+	font-optical-sizing: auto;
+	font-size: 50px;
+	font-weight: 400;
+	font-style: normal;
+	font-variation-settings:
+	  "MORF" 26,
+	  "SHLN" 50;
+}
+
+#header_bigfont{
+	font-family: "Honk", system-ui;
+	font-optical-sizing: auto;
+	font-size: 90px;
+	font-weight: 400;
+	font-style: normal;
+	font-variation-settings:
+	  "MORF" 26,
+	  "SHLN" 50;
+}
+
 
 h6 {
 	color: white;
@@ -45,7 +68,7 @@ h6 {
 }
 
 .biography-details li::before {
-	color: #c70d0d;
+	color: #c70d80;
 }
 
 .biography-details li, .skill-list li {
